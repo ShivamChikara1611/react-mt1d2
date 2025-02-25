@@ -56,7 +56,7 @@ class App extends Component {
   }
 
   loadingView = () => (
-    <div testid="loader" className="load">
+    <div data-testid="loader" className="load">
       <Loader type="ThreeDots" color="#00BFFF" height={50} width={50} />
     </div>
   )
